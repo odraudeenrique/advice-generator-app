@@ -14,7 +14,8 @@ function displayAdvice(response){
     advice.innerHTML=response.data.slip.advice   
 }
 function getAdvice(params) {
-    axios.get(url).then(displayAdvice)
+    axios.get(url)
+        .then(displayAdvice)
 }
 getAdvice()
 dice.addEventListener('click',getAdvice)
