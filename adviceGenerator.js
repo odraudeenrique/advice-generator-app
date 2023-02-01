@@ -18,11 +18,11 @@ function getAdvice(params) {
     axios.get(url)
         .then(displayAdvice)
         .then(()=>{
-            dice.classList.remove("loader-animation");
+            dice.classList.remove("loader-animation");  
         })
 }
 
-function actionButton(){
+function actionButton(e){
     dice.classList.add("loader-animation");
     getAdvice();
 }
