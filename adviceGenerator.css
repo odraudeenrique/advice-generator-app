@@ -78,9 +78,10 @@ h1{
     height:50px;
     padding:10px;
     background-color:hsl(150, 100%, 66%);
-    border:none;
+    border:2px outset hsl(150, 100%, 66%) ;
     border-radius:100px;
     margin-bottom:30px; 
+    
 }
 .dice:hover{
     width: 55px;
